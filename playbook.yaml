@@ -1,0 +1,6 @@
+---
+- hosts: jboss
+  become: true
+  roles:
+  - oracle-roles
+  - wildfly-roles
